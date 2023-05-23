@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito+Sans:wght@700;800;900&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito+Sans:wght@700;800;900&family=Oswald&family=Plus+Jakarta+Sans&display=swap');
+
+body {
+    font-family: 'Plus Jakarta Sans', Serif, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+html {
+    background: #fff;
+}
+
+main {
+    display: block;
+}
+
+h1 {
+    position: relative;
+    display: flex;
+    width: 1280px;
+    height: 122px;
+    margin: 0;
+    z-index: 1;
+
+    font-family: Catallina, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 113px;
+
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Oswald', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Oswald', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 52px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FF0000;
+}
+
+header  {
+    background-color: black;
+}
+
+.section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    max-width: 1280px;
+    margin: 0;
+    width: 100%;
+}
+
+.header__container {
+    position: relative;
+    max-width: 1280px;
+    width: 100%;
+    height: 409px;
+    margin: 0 auto;
+    top: 0;
+
+    background: #000000;
+}
+
+.section-image {
+    height: 900px;
+}
+
+.image_container img {
+    position: relative;
+    top: 102px;
+}
+
+.image-list {
+    position: absolute;
+    height: max-content;
+    width: 603px;
+    top: 380px;
+    left: 255px;
+    z-index: 1;
+}
+
+.image_container div p {
+    position: relative;
+    display: block;
+    width: 603px;
+    height: 41px;
+    margin: 0 0 15px;
+
+    font-family: 'Oswald', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 40px;
+    align-items: center;
+
+    color: #545454;
+
+}
+
+.rost-big {
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 248px;
+    top: 376px;
+    left: 878px;
+    z-index: 1;
+
+    background: #FFFFFF;
+}
+
+.rost-small {
+    position: absolute;
+    width: 20px;
+    height: 53px;
+    top: 53px;
+    z-index: 1;
+
+    background: #545454;
+}
+
+.section_stories {
+    padding-top: 90px;
+    height: 5390px;
+}
+
+.stories-block {
+    position: absolute;
+    width: 417px;
+    height: 5138px;
+    top: 295px;
+
+    background: #D9D9D9;
+}
+
+.item-title {
+    position: absolute;
+    width: 535px;
+    height: max-content;
+    margin-top: 97px;
+    left: 0;
+
+    background: #000000;
+}
+
+.stories_container div:nth-child(2)  {
+    width: 725px;
+}
+
+.item-title h2 {
+    position: relative;
+    left: 80px;
+    text-align: left;
+
+}
+
+.item-text {
+    position: relative;
+    width: 835px;
+    height: max-content;
+    left: 345px;
+    top: 200px;
+    padding: 40px 50px;
+    margin-bottom: 200px;
+    background: #545454;
+
+    display: inline-block;
+    align-items: center;
+    z-index: 1;
+
+    color: #FFFFFF;
+}
+
+.btn-more {
+    position: relative;
+    top: 96px;
+    width: 291px;
+    height: 123px;
+    left: 349px;
+
+}
+
+.btn-show-more {
+    position: relative;
+    border: none;
+    width: 291px;
+    height: 123px;
+
+    background: #FF0000;
+}
+
+.btn-show-more:first-child {
+    position: relative;
+
+    font-family: 'Oswald', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 47px;
+    text-align: center;
+    align-items: center;
+
+    color: #D9D9D9;
+
+}

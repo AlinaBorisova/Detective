@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito+Sans:wght@700;800;900&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito+Sans:wght@700;800;900&family=Oswald&family=Plus+Jakarta+Sans&display=swap');
+
+body {
+    font-family: 'Plus Jakarta Sans', Serif, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+html {
+    background: #fff;
+}
+
+main {
+    display: block;
+}
+
+h1 {
+    position: relative;
+    display: flex;
+    width: 544px;
+    height: 122px;
+    left: calc(50% - 544px/2 - 6.5px);
+    top: 5px;
+    margin: 0;
+    z-index: 1;
+
+    font-family: Catallina, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 180px;
+    line-height: 203px;
+
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Oswald', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Oswald', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 52px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FF0000;
+}
+
+header  {
+    background-color: black;
+}
+
+.section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    max-width: 1280px;
+    margin: 0;
+    width: 100%;
+}
+
+.header__container {
+    position: relative;
+    max-width: 1280px;
+    width: 100%;
+    height: 409px;
+    margin: 0 auto;
+    top: 0;
+
+    background: #000000;
+}
+
+.image-title {
+    position: absolute;
+    width: 100%;
+    height: 287px;
+    left: 0;
+    bottom: 0;
+}
+
+.text_section-price {
+    height: 404px;
+}
+
+.text-price {
+    position: relative;
+    top: 80px;
+    width: 570px;
+    height: 256px;
+}
+
+.image-price {
+    position: absolute;
+    width: 550px;
+    height: 762px;
+    left: 650px;
+    top: 80px;
+
+    z-index: 1;
+}
+
+.price_container {
+    height: 5180px;
+}
+
+.title_forPerson {
+    width: 761px;
+    height: 157px;
+    left: -111px;
+
+    background: #000000;
+}
+
+.title_forPerson h2 {
+    position: relative;
+    width: 550px;
+    height: 90px;
+    top: 26px;
+    left: 80px;
+}
+
+.list-price {
+    position: relative;
+    width: 1030px;
+    height: 4651px;
+    background: #D9D9D9;
+    padding-top: 20px;
+}
+
+.list-price div:first-child ul {
+    width: 633px;
+}
+
+.item-price {
+    text-align: justify;
+}
+
+.item-price h3 {
+    position: relative;
+    left: 116px;
+}
+
+.item-price ul {
+    position: relative;
+    width: 850px;
+    left: 80px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    z-index: 1;
+
+}
+
+.item-price ul li {
+    clear: both;
+}
+
+.item-price ul li span:first-child {
+    float: left;
+    padding: 0 .4em 0 0;
+    margin: 0;
+}
+
+.item-price ul li span:first-child::before {
+    content: "";
+    display: inline-block;
+    margin-right: 20px;
+    width: 16px;
+    height: 16px;
+
+    background-color: #A6A6A6;
+    border-radius: 50%;
+
+    position: relative;
+}
+
+.item-price ul li span + span {
+    font-weight: 800;
+    float: right;
+    padding: 0 0 0 .4em;
+    margin: 0;
+}
+
+.item-price ul li:after {
+    content: "";
+    display: block;
+    overflow: hidden;
+    height: 1em;
+    border-bottom: 2px dotted;
+}
+
+.title_forLegal {
+    position: relative;
+    width: 761px;
+    height: 157px;
+    margin-top: 70px;
+
+    background: #000000;
+}
+
+.title_forLegal h2 {
+    position: relative;
+    width: 550px;
+    height: 90px;
+    top: 26px;
+    left: 80px;
+}
+
+.image-price-bottom {
+    position: relative;
+    width: 835px;
+    height: 215px;
+    left: 80px;
+
+}
+
+.block-list {
+    position: absolute;
+    width: 261px;
+    height: 4605px;
+    left: 1030px;
+    top: 438px;
+
+    background: #545454;
+}
+
+
+

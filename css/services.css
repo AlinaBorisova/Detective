@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito+Sans:wght@700;800;900&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito+Sans:wght@700;800;900&family=Oswald&family=Plus+Jakarta+Sans&display=swap');
+
+body {
+    font-family: 'Plus Jakarta Sans', Serif, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+html {
+    background: #fff;
+}
+
+main {
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    width: 840px;
+    height: 122px;
+    left: calc(50% - 840px/2 - 6.5px);
+    top: 5px;
+    margin: 0;
+    z-index: 1;
+
+    font-family: Catallina, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 180px;
+    line-height: 203px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Oswald', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 71px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+h3 {
+    font-family: 'Oswald', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 52px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FF0000;
+}
+
+header  {
+    background-color: black;
+}
+
+.section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    max-width: 1280px;
+    margin: 0;
+    width: 100%;
+}
+
+.header__container {
+    position: relative;
+    max-width: 1280px;
+    width: 100%;
+    height: 409px;
+    margin: 0 auto;
+    top: 0;
+
+    background: #000000;
+}
+
+.image-title {
+    position: absolute;
+    width: 100%;
+    height: 287px;
+    left: 0;
+    bottom: 0;
+}
+
+.services_container {
+    display: flex;
+}
+
+.services_container hr {
+    position: absolute;
+    width: 1730px;
+    height: 0;
+    left: -225px;
+    top: 950px;
+
+    border: 1px solid #FF0000;
+    transform: rotate(90deg);
+}
+
+.column-left {
+    float:left;
+    width: 640px;
+}
+
+.column-left h2 {
+    position: relative;
+    left: 80px;
+}
+
+.services_block {
+    position: relative;
+    width: 318px;
+    height: 2170px;
+
+    background: #D9D9D9;
+}
+
+.services_block-left {
+    left: 217px;
+}
+
+.services_block h3 {
+    position: relative;
+    left: -137px;
+    width: 253px;
+    text-align: left;
+}
+
+.services-item {
+    width: 318px;
+    height: max-content;
+    padding: 25px 0 25px;
+    margin: 25px 0 25px;
+
+    background: #A6A6A6;
+}
+
+.column-right {
+    float:right;
+    width: 640px;
+}
+
+.column-right h2 {
+    position: relative;
+    left: 105px;
+}
+
+.services_block-right {
+    position: relative;
+    height: 1800px;
+    left: 244px;
+}
+
+.services-item-white {
+    position: relative;
+    width: 536px;
+    height: 164px;
+    margin: 150px 0 0;
+    padding: 0;
+
+    background: #FFFFFF;
+}
+
+.services-item-img {
+    position: relative;
+    right: 25px;
+    width: 435px;
+    height: 584px;
+}
+
+.services_block-right:last-child div:last-child {
+    padding: 0;
+    margin: 0;
+}
+
+.services-item ul {
+    list-style: none;
+}
+
+.services-item ul li {
+    position: relative;
+}
+
+.services-item ul li::before {
+    content: "";
+    display: inline-block;
+    margin-right: 20px;
+    width: 16px;
+    height: 16px;
+    left: 34px;
+
+    background-color: #FF0000;
+    border-radius: 50%;
+}
+
+.word-also {
+    position: absolute;
+    width: 216px;
+    height: 52px;
+    left:740px;
+    top: 2250px;
+
+    font-size: 35px;
+    line-height: 52px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #A6A6A6;
+}
+
+.section_services-aboard {
+    height: 1012px;
+}
+
+.services-aboard {
+    position: relative;
+}
+
+.services-aboard h2 {
+    position: relative;
+    width: 344px;
+    height: 71px;
+    left: 740px;
+
+    color: #FF0000;
+}
+
+.services-aboard img {
+    position: relative;
+    display: inline-block;
+    left: 67px;
+    width: 583px;
+    height: 788px;
+}
+
+.services-aboard p {
+    position: relative;
+    display: inline-block;
+    width: 455px;
+    height: 512px;
+    left: 150px;
+    margin: 0;
+    top: 0;
+
+    vertical-align: top;
+    align-items: flex-start;
+}
+
+
+
+
+
